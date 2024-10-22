@@ -44,9 +44,10 @@ const addEvent = () => {
     const timerBox = document.getElementById(`timer-box-${currentEventNumber}`);
     let timerId = Date.now();
     const timerEle = document.createElement("div");
+    timerEle.className = "timerEle";
     timerEle.innerHTML = `
-        <span id="event-name-text-${currentEventNumber}-${timerId}"></span>
-        <span id="event-timer-text-${currentEventNumber}-${timerId}"></span>
+        <span class="event-name" id="event-name-text-${currentEventNumber}-${timerId}"></span>
+        <span class="event-time" id="event-timer-text-${currentEventNumber}-${timerId}"></span>
       `;
     timerBox.appendChild(timerEle);
     const eventNameText = eventNameElement.value.trim() + ": ";
