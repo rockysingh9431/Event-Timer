@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: antiquewhite;
+}
+.navbar {
+  background-color: rgb(92, 0, 76);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 6rem;
+  padding-right: 6rem;
+  margin-bottom: 5rem;
+}
+.navbar-btn {
+  background-color: rgb(167, 8, 145);
+  border: 1px solid rgb(240, 249, 250);
+  padding: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 0.5rem;
+  font-size: large;
+  font-weight: bolder;
+  color: rgb(232, 243, 245);
+  cursor: pointer;
+}
+.navbar-btn:hover {
+  background-color: rgb(134, 2, 117);
+}
+.head {
+  font-size: 2rem;
+  font-weight: 900;
+  color: rgb(255, 255, 255);
+}
+.main {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.event {
+  width: 400px;
+  background-color: rgb(247, 213, 242);
+  padding: 2rem;
+  border: 1px solid rgb(224, 107, 215);
+  border-radius: 1rem;
+  margin: 1rem;
+}
+.eventNumber {
+  text-align: center;
+  color: rgb(90, 2, 50);
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+.eventName {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.3rem;
+}
+.eventTimer {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.3rem;
+}
+.event-label {
+  color: brown;
+  font-size: 1.5rem;
+}
+.buttons {
+  display: flex;
+  padding: 0.3rem;
+
+  justify-content: space-between;
+}
+
+.btn {
+  background-color: rgb(129, 5, 98);
+  color: white;
+  padding: 0.5rem;
+  cursor: pointer;
+  border: 1px solid rgb(90, 2, 50);
+  border-radius: 0.5rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+.btn:hover {
+  background-color: rgb(90, 2, 50);
+}
